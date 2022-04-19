@@ -1,0 +1,27 @@
+{
+  "name": "hello-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h0jicha/hello-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/h0jicha/hello-actions/issues"
+  },
+  "homepage": "https://github.com/h0jicha/hello-actions#readme",
+  "devDependencies": {
+    "@cybozu/eslint-config": "^17.0.1",
+    "eslint": "^8.13.0",
+    "mocha": "^9.2.2",
+    "prettier": "^2.6.2"
+  }
+}
