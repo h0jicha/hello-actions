@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "nyc --reporter=html --reporter=text mocha",
     "lint": "eslint ."
   },
   "repository": {
@@ -22,6 +22,7 @@
     "@cybozu/eslint-config": "^17.0.1",
     "eslint": "^8.13.0",
     "mocha": "^9.2.2",
+    "nyc": "^15.1.0",
     "prettier": "^2.6.2"
   }
 }
